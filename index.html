@@ -11,21 +11,11 @@
     </h2>
 
     <p id="demo">
-        JavaScript can change HTML content.
+        JavaScript can change the style of an HTML element.
     </p>
 
-    <p>
-        In this case JavaScript changes the value of the src (source) attribute of an image.
-    </p>
-
-    <button onclick="document.getElementById(`myLight`).src = `pic_bulbon.gif`">
-        Turn on 
-    </button>
-    
-    <img id="myLight" src="pic_bulboff.gif" alt="bulb_Off">
-    
-    <button onclick="document.getElementById(`myLight`).src = `pic_bulboff.gif`">
-        Turn off 
+    <button onclick="document.getElementById(`demo`).style.fontSize = `2rem`">
+        Click Me!
     </button>
 </body>
 </html>
