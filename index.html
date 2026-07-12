@@ -14,12 +14,18 @@
         JavaScript can change HTML content.
     </p>
 
-    <button onclick='document.getElementById("demo").innerText = "See! You changed the inner text..! 🥳"'>
-        Click Me!
-    </button>
+    <p>
+        In this case JavaScript changes the value of the src (source) attribute of an image.
+    </p>
 
-    <button onclick='document.getElementById("demo").innerHTML = "See! You changed the inner text..! 🥳"'>
-        Click Me!
+    <button onclick="document.getElementById(`myLight`).src = `pic_bulbon.gif`">
+        Turn on 
+    </button>
+    
+    <img id="myLight" src="pic_bulboff.gif" alt="bulb_Off">
+    
+    <button onclick="document.getElementById(`myLight`).src = `pic_bulboff.gif`">
+        Turn off 
     </button>
 </body>
 </html>
