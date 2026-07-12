@@ -6,27 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        My First JavaScript
-    </h1>
+    <h2>
+        What Can JavaScript Do?
+    </h2>
 
-    <!-- Button functionality using inline JavaScript -->
+    <p id="demo">
+        JavaScript can change HTML content.
+    </p>
 
-    <!-- Example: Display the current date and time using inline JavaScript -->
-
-    
-    <!-- <button id="btnDate" onclick= "document.getElementById(`dateShow`).innerText = Date()">
-        Click me to display Date and Time.
-    </button> -->
-
-
-    <button id="btnDate" onclick= "displayDate()">
-        Click me to display Date and Time.
+    <button onclick='document.getElementById("demo").innerText = "See! You changed the inner text..! 🥳"'>
+        Click Me!
     </button>
-
-    <p id="dateShow"></p>
-
-    <script src="script.js"></script>
-
 </body>
 </html>
